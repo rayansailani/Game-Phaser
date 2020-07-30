@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>game page</title>
-    </head>
-    <body>
-        <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script> 
-        <script type="text/javascript" src="bullet.js"></script>
-        <script type="text/javascript" src="scene.js"></script>
-       <script type="text/javascript" src="game.js"></script>
-       
-    </body>
+
+<head>
+    <title>Whale of War</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+    <script type="text/javascript" src="bullet.js"></script>
+    <script type="text/javascript" src="scene.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Flavors', cursive;
+            padding: 10px;
+            font-size: 1.5rem;
+            background-color: black;
+            position: relative;
+
+        }
+
+        .header {
+            padding: 30px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 50px;
+
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+
+        }
+
+        .topnav a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 12px 16px;
+            color: white;
+            text-align: center;
+        }
+
+        .topnav a:hover {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+
+
+
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="header">
+        <h1>Whale Of War</h1>
+        <p>Mess with the Sea, You get the Whale </p>
+    </div>
+    <div class="topnav">
+        <a href="">Restart</a>
+        <a href="#"><b>JUMP & SHOOT</b> - DOWN</a>
+        <a href="#"><b>JUMP</b> - UP</a>
+
+
+    </div>
+
+</body>
+
 </html>

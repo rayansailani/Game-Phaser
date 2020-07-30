@@ -6,11 +6,11 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 2000 },
+            //gravity: { y: 0 },
             debug: false
         }
     },
-    scene:[scene]
+    scene: [scene]
     /*
     scene: {
         preload: preload,
